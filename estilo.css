@@ -1,0 +1,42 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header {
+    border: .1rem solid red;
+    height: 2rem;
+
+}
+
+section {
+    border: .1rem solid rebeccapurple;
+    display: flex;
+    flex: 1;
+    
+}
+
+footer { 
+    border: .1rem solid green ;
+   height: 2rem; 
+
+}
+
+nav { 
+    border: .1rem solid greenyellow}
+
+main {
+    border: .1 solid rgb(194, 9, 71);
+    display: flex;
+    flex: 1;
+}
+
