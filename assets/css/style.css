@@ -1,0 +1,33 @@
+@import url(cartao.css);
+@import url(cabecanho.css);
+@import url("corpo.css");
+@import url("rodape.css");
+@import url(logo.css);
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    /* border: .1rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    /* border: .1rem solid orangered; */
+    background-color: #eee;
+    padding: .5rem;
+}
+
+main {
+    /* border: .1rem solid purple; */
+    display: flex;
+    flex: 1;
+    padding: .5rem;
+}
+

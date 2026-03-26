@@ -1,11 +1,13 @@
 .cartao {
-    border: 0.1em; 
-    border-radius: 5rem;
-    box-shadow: .4rem.3rem.3rem.03rem red;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    box-shadow: .4rem .3rem .3rem .03rem black ;
     display: flex;
     flex-direction: column;
     width: 15rem;
-    height:28rem;
-
-
+    height: auto;
+}
+.imagem-do-cartao {
+    width: 100%;
+    border-radius: 10px;
 }

@@ -1,0 +1,38 @@
+header {
+    background-color: #aa85ee; 
+    color: #eee;
+    display: flex;
+    align-items: center; /* Alinha logo e título no meio da altura */
+    padding: 0.8rem 1.5rem; /* Dá um respiro nas laterais */
+    height: auto; /* Deixa a altura se ajustar ao conteúdo */
+}
+.titulo {
+    flex: 1; /*expande "ocupa 100% do espaço disponível*/
+    /* border: .1rem solid white; */
+}
+
+.menu-hamburguer {
+    /* border: .1rem solid red; */
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #aa85ee;
+}
+
+.menu-hamburguer i {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.menu-hamburguer:hover i { /*hover = quando o mouse passa por cima*/
+    color: #eee;
+}
+
+.menu-hamburguer i:hover {
+    color: white;
+}
