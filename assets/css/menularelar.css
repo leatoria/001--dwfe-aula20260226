@@ -28,7 +28,7 @@ color: #5e5e5e;
     background-color: #ccc;
     color:black;
     box-shadow: .3rem .3rem .3rem .3rem #ddd;
-    border: 1rem solid #bdbdbd;
+    border: 1rem solid #3f3b3b;
 
   
 }
@@ -38,7 +38,20 @@ color: #5e5e5e;
 }
 
 .opcao:hover .icone-final {
-    opacity:1;
+    opacity:1; 
 
 }
 
+.icone-inicial{
+    width: 1.5rem;
+}
+.rotulo {
+    flex: 1;
+}
+
+.icone-final{
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3 ease-in;
+}
