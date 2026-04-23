@@ -1,11 +1,31 @@
 header {
-    background-color: #aa85ee; 
+    /* border: 0.1rem solid red; */
+    height: 4rem;
+    background-color: #36034b;
     color: #eee;
     display: flex;
-    align-items: center; /* Alinha logo e título no meio da altura */
-    padding: 0.8rem 1.5rem; /* Dá um respiro nas laterais */
-    height: auto; /* Deixa a altura se ajustar ao conteúdo */
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .7rem;
 }
+
+.logo {
+    border: .1rem rgb(225, 207, 240) solid; /*borda*/
+    background-color: rgb(177, 90, 218); /*cor de fundo*/
+    width: 1rem;
+    height: 1rem;
+    color: #eee;
+    font-weight: bold; /*fonte em negrito*/
+    border-radius: 100%;
+    padding: .7rem; /*afasta o conteúdo da borda*/
+    display: flex; /*caixas flexivéis*/
+    justify-content: center; /*centro do eixo x*/
+    align-items: center; /*centro do eixo y*/ /*alinhamento dos itens dentro de cada caixa*/
+    align-content: center; /*centro do eixo y*/
+    margin-right: .7rem; /*margem da direita*/
+}
+
 .titulo {
     flex: 1; /*expande "ocupa 100% do espaço disponível*/
     /* border: .1rem solid white; */
@@ -21,7 +41,7 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #aa85ee;
+    background-color: #9542b6;
 }
 
 .menu-hamburguer i {
@@ -29,10 +49,10 @@ header {
     color: #ccc;
 }
 
-.menu-hamburguer:hover i { /*hover = quando o mouse passa por cima*/
+.menu-hamburguer:hover i { /*hover = quando o mouse passa por cima da div*/
     color: #eee;
 }
 
-.menu-hamburguer i:hover {
+.menu-hamburguer i:hover { /*hover = quando o mouse passa por cima do i*/
     color: white;
 }

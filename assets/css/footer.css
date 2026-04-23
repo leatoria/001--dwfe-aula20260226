@@ -1,13 +1,15 @@
 footer {
-    
-    /* border: .1rem solid green; */
-    height: 2rem;
-    background-color:#aa85ee;
+    width: 100%;
+    background-color: #36034b;
     color: #eee;
     display: flex;
-    /* justify-content: center; */
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    padding: .5rem;
-
+    padding: .75rem 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    flex-shrink: 0;
 }
+   
+
+

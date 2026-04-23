@@ -1,8 +1,7 @@
 @import url(cartao.css);
 @import url(cabecanho.css);
 @import url("corpo.css");
-@import url("rodape.css");
-@import url(logo.css);
+@import url("footer.css");
 @import url(menularelar.css);
 
 
@@ -12,20 +11,12 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
+    
 }
 
-
-section {
-    /* border: .1rem solid blue; */
-    display: flex;
-    flex: 1;
+body {
+   margin:0;
+   min-height:100vh; /* altura mínima da tela */
+   display:flex;
+   flex-direction:column;
 }
-
-
-main {
-    /* border: .1rem solid purple; */
-    display: flex;
-    flex: 1;
-    padding: .5rem;
-}
-

@@ -1,51 +1,46 @@
 nav {
     /* border: .1rem solid orangered; */
+    width: 15em;
     background-color: #eee;
-    padding: 0.5rem;
-    width: 15rem;
+    padding: .5rem;
 }
 
-a {
-    text-decoration: none;
+a{ /* a= anchor */
+    text-decoration: none; /* tira o sublinhado do "link" */
 }
 
-li {  margin-top: 1rem;
-
-
+li{
+    margin-bottom: 1rem; /* espaço entre as opções do menu */
 }
 
 .opcao {
-display: flex;
-border-radius: 0.5rem;
-padding: 0.6rem;
-background-color: #eee;
-color: #5e5e5e;
-
+    display: flex;
+    border-radius: .5rem;
+    padding: .6rem;
+    background-color: #ddd ;
+    color: #5e5e5e;
 }
 
-.opcao:hover {
-
+.opcao:hover{
     background-color: #ccc;
-    color:black;
-    box-shadow: .3rem .3rem .3rem .3rem #ddd;
-    border: 1rem solid #3f3b3b;
-
-  
+    color: black;
+    box-shadow: .3rem .3rem .3rem .01rem #ddd; /* sombra, eixo x, eixo y, a intensidade da sombra, o espalhamento da sombra, cor*/
+    border: .1rem solid #bdbdbd;
 }
 
-.opcao:hover.rotulo {
+.opcao:hover .rotulo { /* quando eu passo o mouse sobre a opção("hover") a opção rotulo que se desloca para a direita */
     text-align: right;
 }
 
 .opcao:hover .icone-final {
-    opacity:1; 
-
+    opacity: 1; /* eu vejo o elemento, ele não é translúcido */
 }
 
-.icone-inicial{
+.icone-inicial {
     width: 1.5rem;
 }
-.rotulo {
+
+.rotulo{
     flex: 1;
 }
 
@@ -53,5 +48,5 @@ color: #5e5e5e;
     width: 1rem;
     text-align: right;
     opacity: 0;
-    transition: opacity 0.3 ease-in;
+    transition: opacity 0.3s ease-in; /* tipo de transição para sumir a setinha */
 }

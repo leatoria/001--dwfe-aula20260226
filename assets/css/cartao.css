@@ -5,9 +5,83 @@
     display: flex;
     flex-direction: column;
     width: 15rem;
-    height: auto;
+    min-height: 28rem; /* altura mínima do cartão, para que ele não fique muito pequeno */
+    height: auto; /* altura automática, para que ele se ajuste ao conteúdo */
+    padding: 1rem;
+    box-shadow: .3rem .3rem .3rem .03rem #eee;
 }
-.imagem-do-cartao {
-    width: 100%;
-    border-radius: 10px;
+
+.imagem-do-cartao{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 2/1.3; /* a proporção entre a largura e a altura */
+    object-fit: cover; /* encaixamento da imagem */
+}
+
+.corpo-do-cartao{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.titulo-do-cartao,
+.titulo-da-noticia{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .5rem 0rem;
+}
+
+.classificacao,
+.classificacao-da-noticia{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+
+.categoria-da-noticia,
+.data-da-noticia,
+.autor-da-noticia,
+.autoria-da-noticia{
+    font-size: .7rem;
+}
+
+.categoria-da-noticia{
+    color: rgb(72, 17, 160);
+}
+
+.data-da-noticia{
+    color: rgb(227, 12, 235);
+}
+
+.descricao-da-noticia{
+    margin-bottom: .5rem;
+}
+
+.autor-da-noticia{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.botao-do-cartao{
+    max-width: 100%;
+    padding: .5rem;
+    background-color: rgb(99, 46, 124);
+    color: #eee;
+    font-weight: bold;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer; /* quando o mouse passar por cima */
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao-do-cartao:hover{
+    background-color: #1818b0;
+    color: white;
+
 }
