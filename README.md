@@ -1,5 +1,5 @@
 # 📰 Portal de Notícias Responsivo
-___________________________________________________________________________________
+_______________________________________________________________________
 
 Este projeto é um portal de notícias moderno e totalmente responsivo, concebido como um desafio prático de Desenvolvimento Web Front-End. O objetivo central foi criar uma experiência de usuário (UX) fluida e organizada, priorizando a legibilidade e a estruturação lógica do conteúdo.
 
@@ -10,4 +10,4 @@ Destaques Técnicos:
 **Layout Moderno:** Construção baseada inteiramente em CSS Flexbox, dispensando frameworks de estilização (como Bootstrap ou Tailwind) para demonstrar domínio em CSS puro. A única biblioteca externa utilizada foi o Font Awesome, focada exclusivamente na entrega de ícones leves e responsivos para a interface.Construção baseada inteiramente em CSS Flexbox, dispensando frameworks externos para demonstrar domínio em CSS puro.
 
 **Design Modular:** Componentes reutilizáveis e fáceis de manter.
-___________________________________________________________________________________
+_______________________________________________________________________
