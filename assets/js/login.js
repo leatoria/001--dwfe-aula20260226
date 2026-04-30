@@ -1,22 +1,19 @@
-const email="admin@exemplo.com";
-const senha="1234";
+const email = "admin@exemplo.com"; // mock ou mockup: inserção de dados fictícios
+const senha = "1234";
 
 function verificarCredenciais(){
     const emailInformado = document.getElementById("email").value;
     const senhaInformada = document.getElementById("senha").value;
-
-
-if(emailInformado === email) {
-    alert("Email correto");
-    if(senhaInformada === senha){
-        alert("Login realizado com sucesso!");
-        window.location = "home.html";
-    } else 
-        alert("Senha incorreta");
-
-} 
-else 
-        alert("Email incorreto");
-
-
+    
+    if(emailInformado === email){
+        alert("E-mail informado corretamente");
+        if(senhaInformada === senha){
+            alert("Senha informada corretamente!");
+            window.location = "home.html";
+        }
+        else 
+            alert("Senha informada incorretamente!");       
+    }
+    else
+        alert("E-mail informado incorretamente!");
 }

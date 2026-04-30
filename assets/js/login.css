@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo mais claro */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #a855f7, #d8b4fe);
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 320px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Título */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Grupo input + ícone */
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+.input-box input {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Ícones alinhados */
+.input-box i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9333ea;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #c084fc, #a855f7);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #a855f7, #9333ea);
+}
+
+/* Lembrar */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Cadastro */
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
