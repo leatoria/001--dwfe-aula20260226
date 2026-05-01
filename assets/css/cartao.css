@@ -69,7 +69,7 @@
 .botao-do-cartao{
     max-width: 100%;
     padding: .5rem;
-    background-color: rgb(99, 46, 124);
+    background-color: rgb(195, 137, 223);
     color: #eee;
     font-weight: bold;
     border: none;
@@ -81,7 +81,7 @@
 }
 
 .botao-do-cartao:hover{
-    background-color: #1818b0;
+    background-color: #ba73db;
     color: white;
 
 }

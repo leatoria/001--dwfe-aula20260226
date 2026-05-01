@@ -50,3 +50,7 @@ li{
     opacity: 0;
     transition: opacity 0.3s ease-in; /* tipo de transição para sumir a setinha */
 }
+
+.menu-oculto {
+    display: none;
+}

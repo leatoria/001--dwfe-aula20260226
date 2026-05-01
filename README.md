@@ -11,3 +11,6 @@ Destaques Técnicos:
 
 **Design Modular:** Componentes reutilizáveis e fáceis de manter.
 _______________________________________________________________________
+
+alt+seta para cima ou para baixou
+ctrl + ; comentario
