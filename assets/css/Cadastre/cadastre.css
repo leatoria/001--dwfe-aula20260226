@@ -1,0 +1,236 @@
+/* RESET PADRÃO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO DO BODY */
+body{
+
+    /* Fonte */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Centralizar conteúdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Altura total da tela */
+    height: 100vh;
+
+    /* Fundo gradiente */
+    background: linear-gradient(
+        135deg,
+        #a855f7,
+        #d8b4fe
+    );
+}
+
+/* CONTAINER PRINCIPAL */
+.container{
+
+    /* Largura máxima */
+    width: 100%;
+    max-width: 420px;
+
+    /* Espaçamento lateral */
+    padding: 20px;
+}
+
+/* CARD */
+.card{
+
+    /* Fundo branco */
+    background-color: white;
+
+    /* Espaçamento interno */
+    padding: 40px;
+
+    /* Bordas arredondadas */
+    border-radius: 20px;
+
+    /* Sombra */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* TÍTULO */
+.card h1{
+
+    /* Cor */
+    color: #7e22ce;
+
+    /* Centralizar */
+    text-align: center;
+
+    /* Espaçamento inferior */
+    margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+.card p{
+
+    /* Centralizar */
+    text-align: center;
+
+    /* Cor */
+    color: #666;
+
+    /* Espaçamento */
+    margin-bottom: 30px;
+}
+
+/* GRUPO DOS INPUTS */
+.input-group{
+
+    /* Espaçamento inferior */
+    margin-bottom: 20px;
+}
+
+/* LABEL */
+.input-group label{
+
+    /* Mostrar em bloco */
+    display: block;
+
+    /* Espaçamento inferior */
+    margin-bottom: 8px;
+
+    /* Cor */
+    color: #444;
+
+    /* Negrito */
+    font-weight: bold;
+}
+
+/* INPUT */
+.input-group input{
+
+    /* Largura total */
+    width: 100%;
+
+    /* Espaçamento interno */
+    padding: 14px;
+
+    /* Borda */
+    border: 2px solid #ddd;
+
+    /* Borda arredondada */
+    border-radius: 12px;
+
+    /* Remove contorno padrão */
+    outline: none;
+
+    /* Tamanho da fonte */
+    font-size: 15px;
+
+    /* Animação suave */
+    transition: 0.3s;
+}
+
+/* EFEITO AO CLICAR NO INPUT */
+.input-group input:focus{
+
+    /* Cor da borda */
+    border-color: #a855f7;
+
+    /* Brilho */
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+}
+
+/* BOTÃO */
+.btn{
+
+    /* Largura total */
+    width: 100%;
+
+    /* Espaçamento interno */
+    padding: 14px;
+
+    /* Remove borda */
+    border: none;
+
+    /* Bordas arredondadas */
+    border-radius: 12px;
+
+    /* Fundo gradiente */
+    background: linear-gradient(
+        135deg,
+        #c084fc,
+        #a855f7
+    );
+
+    /* Cor do texto */
+    color: white;
+
+    /* Negrito */
+    font-weight: bold;
+
+    /* Tamanho da fonte */
+    font-size: 16px;
+
+    /* Cursor de clique */
+    cursor: pointer;
+
+    /* Transição */
+    transition: 0.3s;
+}
+
+/* HOVER DO BOTÃO */
+.btn:hover{
+
+    /* Pequeno movimento */
+    transform: translateY(-2px);
+
+    /* Transparência */
+    opacity: 0.9;
+}
+
+/* LINK LOGIN */
+.login-link{
+
+    /* Centralizar */
+    text-align: center;
+
+    /* Espaçamento superior */
+    margin-top: 20px;
+
+    /* Cor */
+    color: #555;
+}
+
+/* LINK */
+.login-link a{
+
+    /* Cor */
+    color: #a855f7;
+
+    /* Remove linha */
+    text-decoration: none;
+
+    /* Negrito */
+    font-weight: bold;
+}
+
+/* MENSAGEM */
+#mensagem{
+
+    /* Espaçamento superior */
+    margin-top: 15px;
+
+    /* Centralizar */
+    text-align: center;
+
+    /* Negrito */
+    font-weight: bold;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width: 500px){
+
+    .card{
+
+        /* Reduz padding no celular */
+        padding: 25px;
+    }
+}

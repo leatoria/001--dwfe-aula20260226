@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <!-- Configuração de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Responsividade para celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>Tela de Cadastro</title>
+
+    <!-- Ligação do CSS -->
+    <link rel="stylesheet" href="assets/css/Cadastre/cadastre.css">
+
+</head>
+<body>
+
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="container">
+
+        <!-- CARD DO FORMULÁRIO -->
+        <div class="card">
+
+            <!-- TÍTULO -->
+            <h1>Criar Conta</h1>
+
+            <!-- SUBTÍTULO -->
+            <p>Faça seu cadastro para continuar</p>
+
+            <!-- FORMULÁRIO -->
+            <form id="formCadastro">
+
+                <!-- CAMPO NOME -->
+                <div class="input-group">
+
+                    <!-- TEXTO DO CAMPO -->
+                    <label for="nome">Nome</label>
+
+                    <!-- INPUT NOME -->
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        placeholder="Digite seu nome"
+                    >
+
+                </div>
+
+                <!-- CAMPO EMAIL -->
+                <div class="input-group">
+
+                    <!-- TEXTO DO CAMPO -->
+                    <label for="email">Email</label>
+
+                    <!-- INPUT EMAIL -->
+                    <input 
+                        type="email" 
+                        id="email" 
+                        placeholder="Digite seu email"
+                    >
+
+                </div>
+
+                <!-- CAMPO SENHA -->
+                <div class="input-group">
+
+                    <!-- TEXTO DO CAMPO -->
+                    <label for="senha">Senha</label>
+
+                    <!-- INPUT SENHA -->
+                    <input 
+                        type="password" 
+                        id="senha" 
+                        placeholder="Digite sua senha"
+                    >
+
+                </div>
+
+                <!-- CAMPO CONFIRMAR SENHA -->
+                <div class="input-group">
+
+                    <!-- TEXTO DO CAMPO -->
+                    <label for="confirmarSenha">
+                        Confirmar Senha
+                    </label>
+
+                    <!-- INPUT CONFIRMAR SENHA -->
+                    <input 
+                        type="password" 
+                        id="confirmarSenha" 
+                        placeholder="Confirme sua senha"
+                    >
+
+                </div>
+
+                <!-- BOTÃO -->
+                <button type="submit" class="btn">
+                    Cadastrar
+                </button>
+
+                <!-- MENSAGEM DO JAVASCRIPT -->
+                <div id="mensagem"></div>
+
+            </form>
+
+            <!-- LINK LOGIN -->
+            <div class="login-link">
+
+                Já possui conta?
+
+                <a href="#">
+                    Entrar
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Ligação do JavaScript -->
+    <script src="assets/js/Cadastre.js"></script>
+
+</body>
+</html>
