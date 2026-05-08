@@ -1,5 +1,7 @@
-const email = "admin@exemplo.com"; // mock ou mockup: inserção de dados fictícios
-const senha = "1234";
+ import { usuario } from "./bd.js";
+
+ const email = usuario.email;
+ const senha = usuario.senha;
 
 function verificarCredenciais(){
     const emailInformado = document.getElementById("email").value;
@@ -17,3 +19,13 @@ function verificarCredenciais(){
     else
         alert("E-mail informado incorretamente!");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const botao = document.querySelector("button");
+    botao.addEventListener( "click", (e) => {
+    e.preventDefaul();
+    verificarCredenciais();
+
+    });
+
+});
