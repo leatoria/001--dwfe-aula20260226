@@ -1,0 +1,32 @@
+header {
+    /* border: 0.1rem solid red; */
+    height: 4rem;
+    background-color: #b56fd1;
+    color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .7rem;
+}
+
+.logo {
+    border: .1rem rgb(225, 207, 240) solid; /*borda*/
+    background-color: rgb(133, 88, 153); /*cor de fundo*/
+    width: 1rem;
+    height: 1rem;
+    color: #eee;
+    font-weight: bold; /*fonte em negrito*/
+    border-radius: 100%;
+    padding: .7rem; /*afasta o conteúdo da borda*/
+    display: flex; /*caixas flexivéis*/
+    justify-content: center; /*centro do eixo x*/
+    align-items: center; /*centro do eixo y*/ /*alinhamento dos itens dentro de cada caixa*/
+    align-content: center; /*centro do eixo y*/
+    margin-right: .7rem; /*margem da direita*/
+}
+
+.titulo {
+    flex: 1; /*expande "ocupa 100% do espaço disponível*/
+    /* border: .1rem solid white; */
+}
